@@ -7,7 +7,7 @@ import Sec5 from "./Sec5";
 function App() {
   return (
     <div
-      className="min-w-[320px] px-[clamp(25px,6vw,40px)] pb-[.5px] bg-blend-overlay"
+      className="min-w-[320px] px-[clamp(25px,6vw,40px)] pb-[.5px] bg-blend-overlay overflow-hidden md:px-[clamp(25px,6vw,60px)]"
       style={{
         backgroundImage: `url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAACNJREFUKBVjYCAN/GciTT0Dw6gGYkJsEIYSI9Dd/4lxO0wNAGI0AhSoZQnrAAAAAElFTkSuQmCC")`,
         backgroundSize: "12px 12px",

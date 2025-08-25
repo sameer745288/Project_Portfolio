@@ -1,8 +1,8 @@
 function Nav(params) {
     return (
       <div className="w-full flex items-center place-content-between pt-[25px]">
-        <p className="font-[Jost-500] text-[clamp(1rem,5vw,1.3rem)]">Web Developer And Linux Enthusiast</p>
-        <div className="ml-[30px] size-[clamp(45px,13vw,50px)] bg-[#FFE9B3] shrink-0 rounded-[10px] border relative">
+        <p className="font-[Jost-500] text-[clamp(1rem,5vw,1.8rem)] md:text-[clamp(1rem,3vw,1.8rem)]">Web Developer And Linux Enthusiast</p>
+        <div className="ml-[30px] size-[clamp(45px,13vw,50px)] bg-[#FFE9B3] shrink-0 rounded-[10px] border relative md:size-[clamp(45px,8vw,70px)] md:rounded-[12px]">
           <svg className="transform -translate-1/2 absolute top-1/2 left-1/2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 22 20"
