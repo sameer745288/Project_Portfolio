@@ -11,13 +11,13 @@ function Sec2(params) {
           websites with love
         </p>
         <div>
-          <div className="font-[exo-600] text-[clamp(1rem,10vw,3rem)] relative mb-[10px] leading-[1.1]">
+          <div className="font-[exo-600] text-[clamp(1rem,10vw,2.5rem)] relative mb-[10px] leading-[1.1]">
             <span className="absolute">
               My <span className="text-[#FFE9B3]">Projects</span>
             </span>
             <h2 className="text-stroke">My Projects</h2>
           </div>
-          <p className="font-[Jost-400] text-[clamp(.5rem,5.6vw,1.2rem)] leading-[1.6]">
+          <p className="font-[Jost-400] text-[clamp(.5rem,5.6vw,1.1rem)] leading-[1.6]">
             Some of the most interesting projects that I made. Feel free to
             explore my Github for more projects.
           </p>

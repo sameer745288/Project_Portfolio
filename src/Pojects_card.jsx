@@ -3,7 +3,7 @@ import Project_preview from "./assets/Imgs/Project_Preview.jpg";
 
 function Projects_card(params) {
     return (
-      <div className="w-full max-w-[450px] bg-[#FFE9B3] p-[clamp(20px,4vw,28px)] border rounded-[16px] mt-[25px] shrink-0">
+      <div className="w-full max-w-[450px] bg-[#FFE9B3] p-[clamp(20px,4vw,28px)] border rounded-[16px] mt-[25px] shrink-0 snap-x">
         <div className="aspect-230/120 w-full mb-[20px] overflow-auto rounded-[11px] border">
           <img
             src={Project_preview}
@@ -33,7 +33,7 @@ function Projects_card(params) {
           </div>
         </div>
         <div className="flex flex-wrap justify-center gap-[8px] mt-[20px]">
-          <div className="bg-black aspect-110/34 h-[clamp(34px,9vw,45px)] border-white border-[2px] rounded-[10px] shrink-0 relative">
+          <div className="bg-black aspect-105/34 h-[clamp(34px,11vw,45px)] border-white border-[2px] rounded-[10px] shrink-0 relative">
             <div className="absolute transform -translate-1/2 top-1/2 left-1/2 flex items-center justify-center gap-[9px]">
               <svg
                 className="w-[clamp(15px,4vw,22px)] shrink-0"
@@ -51,7 +51,7 @@ function Projects_card(params) {
               </p>
             </div>
           </div>
-          <div className="bg-black aspect-110/34 h-[clamp(34px,8vw,45px)] border-white border-[2px] rounded-[10px] shrink-0 relative">
+          <div className="bg-black aspect-105/34 h-[clamp(34px,11vw,45px)] border-white border-[2px] rounded-[10px] shrink-0 relative">
             <div className="absolute transform -translate-1/2 top-1/2 left-1/2 flex items-center justify-center gap-[9px]">
               <svg
                 className="w-[clamp(15px,4vw,22px)] shrink-0"
@@ -69,7 +69,7 @@ function Projects_card(params) {
               </p>
             </div>
           </div>
-          <div className="bg-black aspect-110/34 h-[clamp(34px,8vw,45px)] border-white border-[2px] rounded-[10px] shrink-0 relative">
+          <div className="bg-black aspect-105/34 h-[clamp(34px,11vw,45px)] border-white border-[2px] rounded-[10px] shrink-0 relative">
             <div className="absolute transform -translate-1/2 top-1/2 left-1/2 flex items-center justify-center gap-[9px]">
               <svg
                 className="w-[clamp(10px,2.6vw,20px)] shrink-0"

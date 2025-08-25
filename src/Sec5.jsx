@@ -1,13 +1,13 @@
 function Sec5(params) {
     return (
       <div className="flex flex-col my-[60px]">
-        <div className="font-[exo-600] text-[clamp(1rem,10vw,3rem)] relative mb-[10px] leading-[1.1]">
+        <div className="font-[exo-600] text-[clamp(1rem,10vw,2.5rem)] relative mb-[10px] leading-[1.1]">
           <span className="absolute text-wrap">
             You can always <span className="text-[#FFE9B3]">contact</span> me
           </span>
           <h2 className="text-stroke text-wrap">You can always contact me</h2>
         </div>
-        <p className="font-[Jost-400] text-[clamp(.5rem,5.6vw,1.2rem)] leading-[1.625rem]">
+        <p className="font-[Jost-400] text-[clamp(.5rem,5.6vw,1.1rem)] leading-[1.625rem]">
           I am always open to new opportunities and collaborations. Whether you
           have a question, a project proposal, or just want to say hello, feel
           free to get in touch. I look forward to connecting with you!

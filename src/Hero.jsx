@@ -1,7 +1,7 @@
 function Hero(params) {
     return (
       <div>
-        <div className="relative size-fit inline-block mt-[60px]">
+        <div className="relative size-fit inline-block mt-[25%]">
           {/*React Svg*/}
           <svg
             className="absolute -top-[34%] -left-[5%] w-[clamp(69px,20vw,120px)]"
@@ -72,7 +72,7 @@ function Hero(params) {
             </h1>
           </div>
         </div>
-        <p className="font-[Jost-300] text-[clamp(.8rem,4vw,1.125rem)] w-[clamp(223px,60vw,400px)] mt-[30px]">
+        <p className="font-[Jost-300] text-[clamp(.8rem,6vw,1.125rem)] mr-[10px] mt-[30px]">
           "Engineering Web Experiences. Hacking on Linux Dreams."
         </p>
       </div>

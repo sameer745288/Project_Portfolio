@@ -2,11 +2,9 @@ function Nav(params) {
     return (
       <div className="w-full flex items-center place-content-between pt-[25px]">
         <p className="font-[Jost-500] text-[clamp(1rem,5vw,1.3rem)]">Web Developer And Linux Enthusiast</p>
-        <div className="ml-[30px] size-[45px] bg-[#FFE9B3] shrink-0 rounded-[10px] border relative">
+        <div className="ml-[30px] size-[clamp(45px,13vw,50px)] bg-[#FFE9B3] shrink-0 rounded-[10px] border relative">
           <svg className="transform -translate-1/2 absolute top-1/2 left-1/2"
             xmlns="http://www.w3.org/2000/svg"
-            width="22"
-            height="20"
             viewBox="0 0 22 20"
             fill="none"
           >
