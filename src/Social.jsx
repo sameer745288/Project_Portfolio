@@ -1,10 +1,11 @@
 import Character from "./assets/Imgs/edit1.png"
+import Hello_desktop from "./assets/Imgs/hello_desktop.png"
 
 function Social(params) {
     return (
-      <div className="flex place-content-between items-center pb-[25px]">
-        <div className="h-[clamp(50px,16vw,60px)] bg-[#FFE9B3] rounded-r-[clamp(9px,3vw,12px)] border-y border-r -ml-[clamp(25px,6vw,40px)] pl-[25px] py-[clamp(6px,1.5vw,7px)] pr-[clamp(6px,1.5vw,7px)] flex gap-[clamp(10px,2vw,16px)] md:-ml-[clamp(25px,6vw,60px)] md:h-[clamp(50px,9vw,80px)] md:pr-[clamp(6px,1.5vw,8px)] md:py-[clamp(6px,1.5vw,8px)] md:rounded-r-[clamp(9px,3vw,15px)]">
-          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative md:rounded-[clamp(6px,2vw,10px)]">
+      <div className="flex place-content-between items-center pb-[25px] xl:flex-col xl:ml-[50px]">
+        <div className="h-[clamp(50px,16vw,60px)] bg-[#FFE9B3] rounded-r-[clamp(9px,3vw,12px)] border-y border-r -ml-[clamp(25px,6vw,40px)] pl-[25px] py-[clamp(6px,1.5vw,7px)] pr-[clamp(6px,1.5vw,7px)] flex gap-[clamp(10px,2vw,12px)] md:-ml-[clamp(25px,6vw,60px)] md:h-[clamp(50px,9vw,65px)] md:pr-[clamp(6px,1.5vw,8px)] md:py-[clamp(6px,1.5vw,8px)] md:rounded-r-[clamp(9px,3vw,12px)]">
+          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative md:rounded-[clamp(6px,2vw,8px)]">
             <svg
               className="absolute transform -translate-1/2 top-1/2 left-1/2"
               xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +18,7 @@ function Social(params) {
               />
             </svg>
           </div>
-          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative md:rounded-[clamp(6px,2vw,10px)]">
+          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative md:rounded-[clamp(6px,2vw,8px)]">
             <svg
               className="absolute transform -translate-1/2 top-1/2 left-1/2"
               xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +31,7 @@ function Social(params) {
               />
             </svg>
           </div>
-          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative md:rounded-[clamp(6px,2vw,10px)]">
+          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative md:rounded-[clamp(6px,2vw,8px)]">
             <svg
               className="absolute transform -translate-1/2 top-1/2 left-1/2"
               xmlns="http://www.w3.org/2000/svg"
@@ -45,11 +46,12 @@ function Social(params) {
           </div>
         </div>
         <img
-          className="h-[clamp(108px,35vw,160px)] -mr-[clamp(25px,6vw,40px)] md:h-[clamp(108px,22vw,250px)] md:-mr-[clamp(25px,6vw,60px)]"
+          className="h-[clamp(108px,35vw,160px)] -mr-[clamp(25px,6vw,40px)] md:h-[clamp(108px,22vw,200px)] md:-mr-[clamp(25px,6vw,60px)] xl:hidden"
           src={Character}
           alt="Hello_buddy"
           srcset=""
         />
+        <img src={Hello_desktop} alt="" srcset="" className="hidden xl:inline-block w-[clamp(500px,30vw,600px)]"/>
       </div>
     );
 }

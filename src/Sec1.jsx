@@ -4,7 +4,7 @@ import Social from "./Social"
 
 function Sec1(params) {
     return (
-        <div className="w-full min-h-svh grid grid-rows-[auto_1fr_auto] items-center py-[clamp(2px,2vw,20px)]">
+        <div className="w-full min-h-svh grid grid-rows-[auto_1fr_auto] items-center py-[clamp(2px,2vw,20px)] xl:grid-cols-2">
           <Nav/>
           <Hero/>
           <Social/>

@@ -3,7 +3,7 @@ import Project_preview from "./assets/Imgs/Project_Preview.jpg";
 
 function Projects_card(params) {
     return (
-      <div className="w-full max-w-[450px] bg-[#FFE9B3] p-[clamp(20px,4vw,28px)] border rounded-[16px] mt-[25px] shrink-0 snap-x">
+      <div className="w-full max-w-[450px] bg-[#FFE9B3] p-[clamp(20px,4vw,28px)] border rounded-[16px] mt-[25px] shrink-0 snap-x my-[20px]">
         <div className="aspect-230/120 w-full mb-[20px] overflow-auto rounded-[11px] border">
           <img
             src={Project_preview}

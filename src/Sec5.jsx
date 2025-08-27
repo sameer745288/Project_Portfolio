@@ -1,18 +1,18 @@
 function Sec5(params) {
     return (
-      <div className="flex flex-col my-[60px]">
-        <div className="font-[exo-600] text-[clamp(1rem,10vw,2.5rem)] relative mb-[10px] leading-[1.1]">
+      <div className="flex flex-col my-[60px] md:items-center">
+        <div className="font-[exo-600] text-[clamp(2.1rem,9vw,3rem)] relative mb-[10px] leading-[1.1]">
           <span className="absolute text-wrap">
             You can always <span className="text-[#FFE9B3]">contact</span> me
           </span>
           <h2 className="text-stroke text-wrap">You can always contact me</h2>
         </div>
-        <p className="font-[Jost-400] text-[clamp(.5rem,5.6vw,1.1rem)] leading-[1.625rem]">
+        <p className="font-[Jost-400] text-[clamp(1rem,5vw,1.2rem)] leading-[1.625rem] md:text-center">
           I am always open to new opportunities and collaborations. Whether you
           have a question, a project proposal, or just want to say hello, feel
           free to get in touch. I look forward to connecting with you!
         </p>
-        <div className="w-[144px] h-[40px] rounded-[10px] border self-center bg-white flex gap-[10px] items-center justify-center my-[20px]">
+        <div className="w-[144px] h-[40px] md:h-[45px] md:w-[154px] rounded-[10px] border self-center bg-white flex gap-[10px] items-center justify-center my-[20px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="12"
@@ -27,8 +27,8 @@ function Sec5(params) {
           </svg>
           <p className="text-[.875rem] font-[Jost-600]">Copy Email</p>
         </div>
-        <div className="-ml-[clamp(25px,6vw,40px)] w-screen h-[48px] bg-[#FFE9B3] border-y flex items-center justify-center gap-[10px] py-[6px]">
-          <div className="aspect-34/34 h-full border bg-white rounded-[6px] relative">
+        <div className="-mx-[clamp(25px,6vw,40px)] w-screen h-[clamp(55px,8vw,60px)] bg-[#FFE9B3] border-y flex items-center justify-center gap-[clamp(10px,2vw,12px)] py-[6px] md:py-[8px] md:-mx-[clamp(25px,6vw,60px)]">
+          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative">
             <svg
               className="absolute transform -translate-1/2 top-1/2 left-1/2"
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function Sec5(params) {
               />
             </svg>
           </div>
-          <div className="aspect-34/34 h-full border bg-white rounded-[6px] relative">
+          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative">
             <svg
               className="absolute transform -translate-1/2 top-1/2 left-1/2"
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ function Sec5(params) {
               />
             </svg>
           </div>
-          <div className="aspect-34/34 h-full border bg-white rounded-[6px] relative">
+          <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative">
             <svg
               className="absolute transform -translate-1/2 top-1/2 left-1/2"
               xmlns="http://www.w3.org/2000/svg"
