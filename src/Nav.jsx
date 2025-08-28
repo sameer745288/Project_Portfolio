@@ -1,8 +1,8 @@
 function Nav(params) {
     return (
-      <div className="w-full flex items-center place-content-between pt-[25px] xl:col-start-1 xl:col-end-3">
+      <div className="w-full flex items-center place-content-between pt-[25px] xl:col-start-1 xl:col-end-3 xl:mb-[clamp(30px,2vw,50px)]">
         <p className="font-[Jost-500] text-[clamp(1rem,5vw,1.5rem)] md:text-[clamp(1rem,3vw,1.6rem)]">Web Developer And Linux Enthusiast</p>
-        <div className="ml-[30px] size-[45px] bg-[#FFE9B3] shrink-0 rounded-[10px] border relative md:size-[50px] md:rounded-[10px]">
+        <div className="ml-[30px] size-[45px] bg-[#FFE9B3] shrink-0 rounded-[10px] border relative md:size-[50px] md:rounded-[10px] xl:hidden">
           <svg className="transform -translate-1/2 absolute top-1/2 left-1/2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 22 20"
@@ -52,6 +52,12 @@ function Nav(params) {
             </defs>
           </svg>
         </div>
+        <ul className="hidden w-fit h-[50px] bg-[#FFE9B3] border rounded-[10px] p-[5px] xl:flex gap-[5px] font-[Jost-500]">
+          <li className="aspect-[125/35] h-full bg-white rounded-[6px] border flex items-center justify-center">My Projects</li>
+          <li className="aspect-[125/35] h-full bg-white rounded-[6px] border flex items-center justify-center">About Me</li>
+          <li className="aspect-[125/35] h-full bg-white rounded-[6px] border flex items-center justify-center">My Skills</li>
+          <li className="aspect-[125/35] h-full bg-white rounded-[6px] border flex items-center justify-center">Contact Me</li>
+        </ul>
       </div>
     );
 }

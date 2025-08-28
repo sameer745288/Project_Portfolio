@@ -3,8 +3,8 @@ import Hello_desktop from "./assets/Imgs/hello_desktop.png"
 
 function Social(params) {
     return (
-      <div className="flex place-content-between items-center pb-[25px] xl:flex-col xl:ml-[50px]">
-        <div className="h-[clamp(50px,16vw,60px)] bg-[#FFE9B3] rounded-r-[clamp(9px,3vw,12px)] border-y border-r -ml-[clamp(25px,6vw,40px)] pl-[25px] py-[clamp(6px,1.5vw,7px)] pr-[clamp(6px,1.5vw,7px)] flex gap-[clamp(10px,2vw,12px)] md:-ml-[clamp(25px,6vw,60px)] md:h-[clamp(50px,9vw,65px)] md:pr-[clamp(6px,1.5vw,8px)] md:py-[clamp(6px,1.5vw,8px)] md:rounded-r-[clamp(9px,3vw,12px)]">
+      <div className="flex place-content-between items-center pb-[25px] xl:flex-col xl:ml-[50px] xl:gap-[30px]">
+        <div className="h-[clamp(50px,16vw,60px)] bg-[#FFE9B3] rounded-r-[clamp(9px,3vw,12px)] border-y border-r -ml-[clamp(25px,6vw,40px)] pl-[25px] py-[clamp(6px,1.5vw,7px)] pr-[clamp(6px,1.5vw,7px)] flex gap-[clamp(10px,2vw,12px)] md:-ml-[clamp(25px,6vw,60px)] md:h-[clamp(50px,9vw,65px)] md:pr-[clamp(6px,1.5vw,8px)] md:py-[clamp(6px,1.5vw,8px)] md:rounded-r-[clamp(9px,3vw,12px)] xl:h-[clamp(55px,4vw,50px)] xl:rounded-[clamp(8px,1vw,12px)] xl:py-[clamp(5px,.5vw,6px)] xl:px-[clamp(5px,.5vw,6px)] xl:border-l">
           <div className="aspect-34/34 h-full border bg-white rounded-[clamp(6px,2vw,8px)] relative md:rounded-[clamp(6px,2vw,8px)]">
             <svg
               className="absolute transform -translate-1/2 top-1/2 left-1/2"
@@ -51,7 +51,7 @@ function Social(params) {
           alt="Hello_buddy"
           srcset=""
         />
-        <img src={Hello_desktop} alt="" srcset="" className="hidden xl:inline-block w-[clamp(500px,30vw,600px)]"/>
+        <img src={Hello_desktop} alt="" srcset="" className="hidden xl:inline-block w-[clamp(500px,40vw,600px)] order-first mt-[clamp(30px,5vw,50px)]"/>
       </div>
     );
 }

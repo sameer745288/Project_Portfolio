@@ -4,7 +4,7 @@ function Hero(params) {
         <div className="relative size-fit inline-block mt-[25%]">
           {/*React Svg*/}
           <svg
-            className="absolute -top-[34%] -left-[5%] w-[clamp(69px,20vw,120px)] md:-top-[27%] md:-left-[12%]"
+            className="absolute -top-[34%] -left-[5%] w-[clamp(69px,20vw,120px)] md:-top-[27%] md:-left-[12%] xl:w-[clamp(69px,9.5vw,150px)]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 69 61"
             fill="none"
@@ -18,7 +18,7 @@ function Hero(params) {
 
           {/*CSS Svg*/}
           <svg
-            className="absolute -right-[12%] -top-[23%] w-[clamp(69px,20vw,120px)] md:-right-[12%] md:-top-[15%]"
+            className="absolute -right-[12%] -top-[23%] w-[clamp(69px,20vw,120px)] md:-right-[12%] md:-top-[15%] xl:w-[clamp(69px,9.5vw,150px)]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 73 58"
             fill="none"
@@ -32,7 +32,7 @@ function Hero(params) {
 
           {/*Vue Svg*/}
           <svg
-            className="absolute bottom-0 -left-[26%] w-[clamp(69px,20vw,120px)] md:-left-[2%] xl:-left-[22%] xl:rotate-5 xl:bottom-[2%]"
+            className="absolute bottom-0 -left-[26%] w-[clamp(69px,20vw,120px)] md:-left-[2%] xl:-left-[22%] xl:rotate-5 xl:bottom-[2%] xl:w-[clamp(69px,9.5vw,150px)]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 65 64"
             fill="none"
@@ -46,7 +46,7 @@ function Hero(params) {
 
           {/*Js Svg*/}
           <svg
-            className="absolute -bottom-[2px] right-[10%] w-[clamp(69px,20vw,120px)] md:-right-[5%] md:bottom-[2%] xl:right-[10%]"
+            className="absolute -bottom-[2px] right-[10%] w-[clamp(69px,20vw,120px)] md:-right-[5%] md:bottom-[2%] xl:right-[10%] xl:w-[clamp(69px,9.5vw,150px)]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 73 73"
             fill="none"
@@ -62,12 +62,12 @@ function Hero(params) {
               <p className="absolute left-[20%] font-[JostI-500] text-[clamp(1.5rem,7vw,2.5rem)] bottom-[clamp(5px,64%,160px)] md:-translate-x-1/2 md:left-1/2 md:text-[clamp(1.5rem,5.9vw,2.5rem)] xl:left-[20%] xl:-translate-x-0">
                 Myself
               </p>
-              <h1 className="font-[Exo-700] text-[clamp(4.3rem,22vw,9rem)] leading-[1] md:text-center md:text-[clamp(4.3rem,20vw,10rem)] xl:text-start">
+              <h1 className="font-[Exo-700] text-[clamp(4.3rem,22vw,9rem)] leading-[1] md:text-center md:text-[clamp(4.3rem,20vw,10rem)] xl:text-start xl:text-[clamp(4.3rem,12vw,12rem)]">
                 Sameer
               </h1>
             </div>
-            <span className="bg-[#FFE9B3] w-full h-[clamp(10px,3vw,15px)] inline-block border rounded-[2px] md:h-[clamp(10px,2.5vw,20px)] md:rounded-[4px]"></span>
-            <h1 className="font-[Exo-700] text-[clamp(4.3rem,22vw,9rem)] leading-[1] md:text-center md:text-[clamp(4.3rem,20vw,10rem)] xl:text-start">
+            <span className="bg-[#FFE9B3] w-full h-[clamp(10px,3vw,15px)] inline-block border rounded-[2px] md:h-[clamp(10px,2.5vw,20px)] md:rounded-[4px] xl:h-[clamp(10px,2.5vw,25px)]"></span>
+            <h1 className="font-[Exo-700] text-[clamp(4.3rem,22vw,9rem)] leading-[1] md:text-center md:text-[clamp(4.3rem,20vw,10rem)] xl:text-start xl:text-[clamp(4.3rem,12vw,12rem)]">
               Saifi
             </h1>
           </div>
